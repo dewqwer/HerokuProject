@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'numshowbandit.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': '',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': '',
         'USER': '',
         'PASSWORD': '',
