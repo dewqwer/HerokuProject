@@ -42,8 +42,6 @@ INSTALLED_APPS = [
 
     'django.contrib.sites',
     'corsheaders',
-    'rest_auth',
-    'rest_auth.registration',
     'rest_framework',
     'rest_framework.authtoken',
 
@@ -160,7 +158,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_URL = '/static/'
 
 CORS_ORIGIN_WHITELIST = [
-    'localhost:3000',
+    'https://localhost:3000',
 ]
 
 
