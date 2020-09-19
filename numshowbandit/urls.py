@@ -17,8 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     # frontend ต้องอยู่บน app อื่น ๆ
     path('', include('frontend.urls')),
     # path('', include('frontenddew.urls')),
+
+    path('admin/', admin.site.urls),
 ]
