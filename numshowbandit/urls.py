@@ -16,12 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from .views import index
-
 urlpatterns = [
     # frontend ต้องอยู่บน app อื่น ๆ
-    path('', index, name='index'),
+    path('', include('frontend.urls')),
     # path('', include('frontenddew.urls')),
-
     path('admin/', admin.site.urls),
 ]
