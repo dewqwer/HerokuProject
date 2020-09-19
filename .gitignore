@@ -7,3 +7,7 @@ staticfiles
 .env
 db.sqlite3
 getting-started/
+*.psd
+*.pdf
+/test
+/spec
