@@ -1,11 +1,17 @@
 node_modules/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
 '*.sqlite3' 
 
+
 venv
-*.pyc
 staticfiles
 .env
-db.sqlite3
 *.psd
 *.pdf
 /test
